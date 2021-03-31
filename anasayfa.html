@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hakkımda</title>
+    <link rel="stylesheet" href="anasayfa.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="baner" id="sec">
+        <header>
+            <a href="#" class="logo"></a>
+            <a href="#" id="lg"><img src="img/ek.png" alt="lg" width="150" height="100"> </a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <h2>Hello World,<br>Ben <span>Emirhan Kaya</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis odit repellat modi repudiandae eius illo numquam vitae fugiat dolore, repellendus maiores sit perferendis dolor
+                 inventore labore incidunt sequi, voluptatum accusamus?</p>
+                 <a href="#">now more</a>
+        </div>
+        <div class=""></div>
+        <ul class="sci">
+            <li><a href="https://www.instagram.com/benemirhan__/ " target="_blank"><img src="img/ins.png" alt="instagramimage"></a></li>
+            <li><a href="https://twitter.com/sadeceemirhan" target="_blank"><img src="img/twitter.png" alt="twiteterimage"></a></li>
+            <li><a href="https://www.linkedin.com/in/emirhan-kaya-63aa381b9/" target="_blank"><img src="img/linkedin.png" alt="linkednimage"></a></li>
+            <li><a href="https://github.com/circle011" target="_blank"><img src="img/git.png" alt="gitlogo"></a></li>
+        </ul>
+    </section>
+    <div id="navigation">
+        <ul>
+            <li><a href="anasayfa.html">ANASAYFA</a></li>
+            <li><a href="hakkımda/hakkımda.html">HAKKIMDA</a></li>
+            <li><a href="#">İLETİŞİM</a></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        function toggle(){
+            var sec = document.getElementById('sec');
+            var nav = document.getElementById('navigation');
+            sec.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+    </script>
+    
+</body>
+</html>
